@@ -1,11 +1,11 @@
 import chalk from "chalk";
 import dedent from "dedent-js";
 
-const pringError = (error) => {
+const printError = (error) => {
   console.log(chalk.bgRed(" ERROR ") + " " + error);
 };
 
-const pringSuccess = (message) => {
+const printSuccess = (message) => {
   console.log(chalk.bgGreen(" SUCCESS ") + " " + message);
 };
 
@@ -20,4 +20,4 @@ const printHelp = () => {
   );
 };
 
-export { pringError, pringSuccess, printHelp };
+export { printError, printSuccess, printHelp };
