@@ -8,7 +8,7 @@
   },
   "type": "module",
   "scripts": {
-    "start": "node index.js",
+    "start": "node weather.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -17,13 +17,13 @@
   ],
   "author": "Sergey Ivanov",
   "license": "ISC",
-  "homepage": "https://foo.ru",
+  "homepage": "https://github.com/qtenebrae",
   "repository": {
     "type": "git",
-    "url": "foo"
+    "url": "https://github.com/qtenebrae/CLI-weather-forecast"
   },
   "bugs": {
-    "url": "https://foo.ru",
+    "url": "https://github.com/qtenebrae",
     "emain": "resuscitato@yandex.ru"
   },
   "dependencies": {
